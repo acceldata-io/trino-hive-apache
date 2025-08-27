@@ -10,7 +10,7 @@
 
     <groupId>io.trino.hive</groupId>
     <artifactId>hive-apache</artifactId>
-    <version>3.1.2-24-3.3.6.1-SNAPSHOT</version>
+    <version>3.1.2-24-3.3.6.2-1</version>
 
     <name>hive-apache</name>
     <description>Shaded version of Apache Hive for Trino</description>
@@ -34,12 +34,12 @@
         <repository>
             <id>nexus-releases</id>
             <name>Releases</name>
-            <url>https://repo1.acceldata.dev/repository/odp-staging-release/</url>
+            <url>https://repo1.acceldata.dev/repository/odp-release/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
             <name>Snapshot</name>
-            <url>https://repo1.acceldata.dev/repository/odp-staging-snapshot/</url>
+            <url>https://repo1.acceldata.dev/repository/odp-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
 
@@ -64,7 +64,7 @@
             </snapshots>
             <id>acceldata staging repo</id>
             <name>acceldata staging repo</name>
-            <url>https://repo1.acceldata.dev/repository/odp-staging-release/</url>
+            <url>https://repo1.acceldata.dev/repository/odp-release/</url>
         </repository>
     </repositories>
 
@@ -84,7 +84,7 @@
         <dep.hive.version>3.1.2</dep.hive.version>
 
         <dep.avro.version>1.10.2</dep.avro.version>
-        <dep.hadoop.version>3.3.6.3.3.6.1-SNAPSHOT</dep.hadoop.version>
+        <dep.hadoop.version>3.3.6.3.3.6.2-1</dep.hadoop.version>
         <dep.parquet.version>1.12.3</dep.parquet.version>
         <dep.protobuf.version>2.5.0</dep.protobuf.version>
         <dep.slf4j.version>1.7.29</dep.slf4j.version>
