@@ -45,7 +45,7 @@
 
         <dep.hive.version>3.1.2</dep.hive.version>
 
-        <dep.avro.version>1.10.2</dep.avro.version>
+        <dep.avro.version>1.11.4</dep.avro.version>
         <dep.hadoop.version>3.2.3.3.2.3.4-2</dep.hadoop.version>
         <dep.parquet.version>1.12.3</dep.parquet.version>
         <dep.protobuf.version>2.5.0</dep.protobuf.version>
@@ -589,6 +589,30 @@
      	  <url>https://repo1.acceldata.dev/repository/odp-staging-snapshot/</url>
    	</snapshotRepository>
     </distributionManagement>
+    <repositories>
+        <repository>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <id>acceldata repo</id>
+            <name>acceldata repo</name>
+            <url>https://repo1.acceldata.dev/repository/odp-central/</url>
+        </repository>
+        <repository>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <id>acceldata staging repo</id>
+            <name>acceldata staging repo</name>
+            <url>https://repo1.acceldata.dev/repository/odp-staging-central/</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
