@@ -34,7 +34,7 @@
         <repository>
             <id>nexus-releases</id>
             <name>Releases</name>
-            <url>https://repo1.acceldata.dev/repository/odp-staging-release/</url>
+            <url>https://repo1.acceldata.dev/repository/odp-release/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
@@ -64,7 +64,7 @@
             </snapshots>
             <id>acceldata staging repo</id>
             <name>acceldata staging repo</name>
-            <url>https://repo1.acceldata.dev/repository/odp-staging-release/</url>
+            <url>https://repo1.acceldata.dev/repository/odp-release/</url>
         </repository>
     </repositories>
 
