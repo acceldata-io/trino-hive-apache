@@ -76,6 +76,7 @@
     </scm>
 
     <properties>
+        <odp.release.version>3.3.6.5-SNAPSHOT</odp.release.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.targetJdk>1.8</project.build.targetJdk>
 
@@ -84,7 +85,7 @@
         <dep.hive.version>3.1.2</dep.hive.version>
 
         <dep.avro.version>1.10.2</dep.avro.version>
-        <dep.hadoop.version>3.3.6.3.3.6.5-SNAPSHOT</dep.hadoop.version>
+        <dep.hadoop.version>3.3.6.${odp.release.version}</dep.hadoop.version>
         <dep.parquet.version>1.12.3</dep.parquet.version>
         <dep.protobuf.version>2.5.0</dep.protobuf.version>
         <dep.slf4j.version>1.7.29</dep.slf4j.version>
